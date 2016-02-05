@@ -1,0 +1,68 @@
+/* styles for template with alternative ctArea layout */
+
+#midCol .ctArea {
+	border-bottom: 1px solid #999;
+	margin-bottom: 15px;
+}
+
+#midCol .ctArea .ctElement {
+	margin-bottom: 0;
+	padding-bottom: 15px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	height: 100%; /* so that the borders also work correctly with textpic - IE 6 / IE 7 */
+}
+
+#midCol .ctArea .ctElement:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; /* so that the borders also work correctly with textpic - Firefox */
+}
+
+#midCol .ctArea .ctElement p,
+#midCol .ctArea .ctElement h3,
+#midCol .ctArea .ctElement h4,
+#midCol .ctArea .ctElement ul,
+#midCol .ctArea .ctElement ol,
+#midCol .ctArea .ctElement table,
+#midCol .ctArea .ctElement fieldset,
+#midCol .ctArea .ctElement blockquote {
+	padding: 0 15px;
+}
+
+#midCol .ctArea ol li {
+	margin-left: 30px;
+}
+
+#midCol .ctArea .ctElement h2 {
+	margin: 0 -1px 15px -1px;
+}
+
+.csc-uploads img {
+	margin-left: 15px;
+}
+
+#midCol .ctElement .csc-textpic-intext-right .csc-textpic-image,
+#midCol .ctElement .csc-textpic-intext-left .csc-textpic-image,
+#midCol .ctElement .csc-textpic-intext-right-nowrap .csc-textpic-image,
+#midCol .ctElement .csc-textpic-intext-left-nowrap .csc-textpic-image,
+#midCol .ctElement .csc-textpic-above .csc-textpic-image {
+	margin-top: -15px !important;
+	margin-top: -18px;
+	position: relative;
+	z-index: 1;
+}
+
+#midCol .ctElement .csc-textpic-intext-right .csc-textpic-caption,
+#midCol .ctElement .csc-textpic-intext-right-nowrap .csc-textpic-caption,
+#midCol .ctElement .csc-textpic-right .csc-textpic-caption {
+	padding-right: 15px;
+}
+
+#midCol .ctElement .csc-textpic-intext-left .csc-textpic-caption,
+#midCol .ctElement .csc-textpic-intext-left-nowrap .csc-textpic-caption,
+#midCol .ctElement .csc-textpic-left .csc-textpic-caption {
+	padding-left: 15px;
+}

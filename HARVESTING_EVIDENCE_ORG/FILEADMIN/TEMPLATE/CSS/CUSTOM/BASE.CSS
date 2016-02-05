@@ -1,0 +1,96 @@
+/* Basic stylesheet */
+
+* {
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+
+html {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+body {
+    position: relative;
+	font: 100.01%/130% Arial, sans-serif; 
+	color: #000; 
+	background: #d6d6d6;
+    text-align: center;
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hidden {
+	display: inline;
+	overflow: hidden;
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+	height: 0px;
+	width: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+	vertical-align: top;
+}
+
+td {
+	vertical-align: top;
+}
+
+
+/* form styles */ 
+
+legend {
+	display: none;
+}
+
+fieldset {
+	border: 0 solid;
+}
+
+
+/* admin panel */
+
+#admPanel {
+	z-index: 999;
+	text-align: left;
+}
+
+#admPanel * {
+	font-size: 18px;
+}
+
+#admPanel input {
+	font-size: 12px;
+}
+
+
+/* Clearfix-Hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

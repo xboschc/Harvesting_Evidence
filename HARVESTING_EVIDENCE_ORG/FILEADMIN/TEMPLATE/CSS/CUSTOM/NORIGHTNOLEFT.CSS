@@ -1,0 +1,15 @@
+/* styles for noright templates */
+
+#rootlineNav {
+	left: 0;
+}
+
+#midCol {
+	margin-right: 0 !important;
+	margin-left: 10px !important;
+}
+
+#main .ctArea .longlist_result {
+	width:936px;
+}
+

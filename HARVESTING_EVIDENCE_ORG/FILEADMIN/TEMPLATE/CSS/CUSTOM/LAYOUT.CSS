@@ -1,0 +1,430 @@
+/* Page layout stylesheet */
+
+* {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 128.5%;
+}
+
+#main {
+	width: 980px !important;
+	width: 990px;
+	position: relative;
+	margin: auto;
+	background: #FFF;
+	text-align: left;
+	padding: 10px 10px 0 0;
+}
+
+#head {
+	margin-left: 10px;
+	position: relative;
+	height: 286px;
+	background: url(../../IMAGES/HEAD_BG.GIF) repeat-x 0 32px;
+}
+
+	#head h1 a {
+		display: block;
+		text-indent: -9999px;
+		outline: 0;
+		width: 640px;
+		height: 39px;
+		background-image: url(../../IMAGES/LOGO.GIF);
+		position: absolute;
+		left: 1px;
+		top: -7px;
+	}
+	
+	#headerImage {
+		text-indent: -9999px;
+		height: 200px;
+		width: 970px;
+		position: absolute;
+		left: 0;
+		top: 66px;
+		background-color: #dfd9d2;
+	}
+	
+	#langNav {
+		position: absolute;
+		left: 0;
+		top: 40px;
+	}
+	
+	#langNav li {
+		float: left;
+	}
+	
+	#langNav li a,
+	#langNav li span {
+		font-size: 10px;
+		display: block;
+		color: #797978;
+		line-height: 7px;
+		padding: 0 3px 2px 3px;
+		border-right: 1px solid #797978;
+	}
+	
+	#langNav li.first a,
+	#langNav li.first span {
+		padding-left: 0;
+	}
+	
+	#langNav li.last a,
+	#langNav li.last span {
+		border-right: 0;
+	}
+	
+	#langNav li a:hover {
+		text-decoration: underline;
+	}
+
+	#headRightCorner {
+		position: absolute;
+		right: 0;
+		top: 35px;
+	}
+	
+	#metaNav {
+		margin-top: 5px;
+		float: right;
+	}
+	
+	#metaNav li {
+		float: left;
+	}
+	
+	#metaNav li a {	
+		font-size: 10px;
+		display: block;
+		color: #797978;
+		line-height: 7px;
+		padding: 0 5px 2px 5px;
+		border-right: 1px solid #797978;
+	}
+	
+	#metaNav li a:hover {
+		text-decoration: underline;
+	}
+	
+	#quickSearch {
+		float: right;
+		margin-left: 5px;
+	}
+	
+	#quickSearch * {
+		line-height: 7px;
+		font-size: 10px;
+		color: #797978;
+	}
+	
+	#quickSearch input {
+		border: 1px solid #a8a79d;
+		padding: 1px;
+		height: 14px !important;
+		height: 18px;
+		width: 96px !important;
+		width: 100px;
+		margin-left: 1px;
+	}
+	
+	#rootlineNav {
+		position: absolute;
+		bottom: 4px;
+		left: 236px;
+		width: 550px;
+	}
+	
+	#rootlineNav a {
+		font-size: 10px;
+		display: block;
+		float: left;
+		color: #797978;
+		line-height: 7px;
+		padding: 0 3px 2px 0;
+		margin-right: 3px;
+		border-right: 1px solid #797978;
+	}
+	
+	#rootlineNav a.act {
+		border-right: none;		
+	}
+
+#leftCol {
+	width: 230px;
+	float: left;
+}
+
+	#mainNav {
+		margin-bottom: 15px;
+	}
+
+	#mainNav li a {
+		display: block;
+		color: #53413b;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	
+	#mainNav li.level1 {
+		padding-left: 10px;
+		margin-bottom: 2px;
+	}
+	
+	#mainNav li.service {
+		background: url(../../IMAGES/MAINNAV_SERVICE.GIF) no-repeat 0 0;
+	}
+	
+	#mainNav li.health {
+		background: url(../../IMAGES/MAINNAV_HEALTH.GIF) no-repeat 0 0;
+	}
+	
+	#mainNav li.information {
+		background: url(../../IMAGES/MAINNAV_INFORMATION.GIF) no-repeat 0 0;
+	}
+	
+	#mainNav li.medical {
+		background: url(../../IMAGES/MAINNAV_MEDICAL.GIF) no-repeat 0 0;
+	}
+	
+	#mainNav li.financing {
+		background: url(../../IMAGES/MAINNAV_FINANCING.GIF) no-repeat 0 0;
+	}
+	
+	#mainNav li.leadership {
+		background: url(../../IMAGES/MAINNAV_LEADERSHIP.GIF) no-repeat 0 0;
+		margin-bottom: 16px;
+	}
+	
+	#mainNav li a.level1 {
+		text-transform: uppercase;
+		padding: 5px 0 3px 0;
+		width: 220px;
+		border-top: 1px solid #FFF;
+		border-bottom: 1px solid #FFF;
+	}
+	
+	#mainNav li.level1 a.level1:hover,
+	#mainNav li.level1 a.act,
+	#mainNav li.level1 a.cur {
+		border-top: 1px solid #8e8783;
+		border-bottom: 1px solid #8e8783;
+		background-color: #eeebe5;
+	}
+	
+	#mainNav li.level1 a.act,
+	#mainNav li.level1 a.act:hover,
+	#mainNav li.level1 a.hasSub,
+	#mainNav li.level1 a.hasSub:hover {
+		border-bottom: none;
+	}
+	
+	#mainNav li ul {
+		background-color: #eeebe5;
+		border-bottom: 1px solid #8e8783;
+		padding-top: 3px;
+	}
+
+	#mainNav li li.level2 {
+		background: url(../../IMAGES/MAINNAV_SUB_BG.GIF) no-repeat left bottom;
+	}
+	
+	#mainNav li li.last {
+		background-image: none;
+		margin-bottom: -1px;
+	}
+		
+	#mainNav li li a.level2 {
+		margin-left: 1px;
+		padding: 6px 0 6px 9px;
+	}
+	
+	#mainNav li.level1 li a.level2:hover,
+	#mainNav li.level1 li a.cur,
+	#mainNav li.level1 li a.act {
+		border: none;
+		background-color: transparent;
+		background: url(../../IMAGES/MAINNAV_ARROW_BG.GIF) no-repeat 2px 10px;
+	}
+	
+	#mainNav li.level1 li a.act {
+		background: url(../../IMAGES/MAINNAV_ARROW_ACT_BG.GIF) no-repeat 0 12px;
+	}	
+	
+	#mainNav li.service li a.level2:hover,
+	#mainNav li.service li li a.level3:hover,
+	#mainNav li.service li li li a.level4:hover,
+	#mainNav li.service li a.cur,
+	#mainNav li.service li a.act {
+		color: #e2002b;
+	}
+	
+	#mainNav li.health li a.level2:hover,
+	#mainNav li.health li li a.level3:hover,
+	#mainNav li.health li li li a.level4:hover,
+	#mainNav li.health li a.cur,
+	#mainNav li.health li a.act {
+		color: #d29439;
+	}
+	
+	#mainNav li.information li a.level2:hover,
+	#mainNav li.information li li a.level3:hover,
+	#mainNav li.information li li li a.level4:hover,
+	#mainNav li.information li a.cur,
+	#mainNav li.information li a.act {
+		color: #007958;
+	}
+	
+	#mainNav li.medical li a.level2:hover,
+	#mainNav li.medical li li a.level3:hover,
+	#mainNav li.medical li li li a.level4:hover,
+	#mainNav li.medical li a.cur,
+	#mainNav li.medical li a.act {
+		color: #c95515;
+	}
+		
+	#mainNav li.financing li a.level2:hover,
+	#mainNav li.financing li li a.level3:hover,
+	#mainNav li.financing li li li a.level4:hover,
+	#mainNav li.financing li a.cur,
+	#mainNav li.financing li a.act {
+		color: #003454;
+	}
+		
+	#mainNav li.leadership li a.level2:hover,
+	#mainNav li.leadership li li a.level3:hover,
+	#mainNav li.leadership li li li a.level4:hover,
+	#mainNav li.leadership li a.cur,
+	#mainNav li.leadership li a.act {
+		color: #f9b200;
+	}
+	
+	#mainNav li ul li ul {
+		padding: 0;
+		padding-bottom: 1px;
+		border: none;
+		background-color: transparent;
+		padding-left: 11px;
+		margin-top: -1px;
+	}
+	
+	#mainNav li li.level2 li {
+		background-image: none;
+	}
+		
+	#mainNav li li li.last {
+		margin-bottom: 0;
+	}
+	
+	#mainNav li li li a.level3,
+	#mainNav li li li li a.level4 {
+		font-size: 11px;
+		line-height: 15px;
+		padding: 4px 0 5px 9px;
+	}
+	
+	#mainNav li.level1 li li a.level3:hover,
+	#mainNav li.level1 li li li a.level4:hover,
+	#mainNav li.level1 li li a.cur,
+	#mainNav li.level1 li li a.act {
+		background: url(../../IMAGES/MAINNAV_ARROW_BG.GIF) no-repeat 2px 8px;
+	}
+	
+	#mainNav li.level1 li li a.act {
+		background: url(../../IMAGES/MAINNAV_ARROW_ACT_BG.GIF) no-repeat 0 9px;
+	}
+	
+	#mainNav li ul li ul li ul {
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+	
+#midCol {
+	margin-left: 245px !important;
+	margin-left: 242px;
+	margin-right: 205px !important;
+	margin-right: 202px;
+}
+
+	#midCol .ctArea {
+		overflow: hidden !important;
+		overflow: visible;
+	}
+	
+#rightCol {
+	width: 195px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+	background-color: #FFF;
+	position: relative;
+	width: 970px;
+	height: 23px;
+	margin-left: 10px;
+	background: url(../../IMAGES/FOOTER_BG.GIF) repeat-x 0 0;
+}	
+
+	#copyright {
+		position: absolute;
+		top: 6px;
+		left: 0;
+	}
+
+	#copyright span {
+		font-size: 10px;
+		line-height: 12px;
+		color: #797978;
+	}
+
+	#footerRightCorner {
+		position: absolute;
+		right: 0;
+		top: 3px;
+	}
+	
+	#metaNavBottom {
+		margin-top: 5px;
+		float: right;
+	}
+	
+	#metaNavBottom li {
+		float: left;
+	}
+	
+	#metaNavBottom li a {	
+		font-size: 10px;
+		display: block;
+		color: #797978;
+		line-height: 7px;
+		padding: 0 5px 2px 5px;
+		border-right: 1px solid #797978;
+	}
+	
+	#metaNavBottom li a:hover {
+		text-decoration: underline;
+	}
+	
+	#quickSearchBottom {
+		float: right;
+		margin-left: 5px;
+	}
+	
+	#quickSearchBottom * {
+		line-height: 7px;
+		font-size: 10px;
+		color: #797978;
+	}
+	
+	#quickSearchBottom input {
+		border: 1px solid #a8a79d;
+		padding: 1px;
+		height: 14px !important;
+		height: 18px;
+		width: 96px !important;
+		width: 100px;
+		margin-left: 1px;
+	}
+	
+

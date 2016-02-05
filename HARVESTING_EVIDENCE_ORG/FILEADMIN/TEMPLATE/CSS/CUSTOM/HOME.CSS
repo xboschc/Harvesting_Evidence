@@ -1,0 +1,155 @@
+/* styles for home template */
+
+#head {
+	height: 426px;
+}
+
+#headerImage {
+	height: 350px;
+}
+
+#leftCol {
+	position: absolute;
+	left: 35px;
+	top: 100px;
+	width: 300px;
+}
+
+#mainNav li {
+	display: none;
+}
+
+#mainNav li.service,
+#mainNav li.health,
+#mainNav li.information,
+#mainNav li.medical,
+#mainNav li.financing,
+#mainNav li.leadership {
+	display: block;
+}
+
+#mainNav li.service {
+	background: url(../../IMAGES/MAINNAV_SERVICE_HOME.GIF) no-repeat 0 0;
+}
+
+#mainNav li.health {
+	background: url(../../IMAGES/MAINNAV_HEALTH_HOME.GIF) no-repeat 0 0;
+}
+
+#mainNav li.information {
+	background: url(../../IMAGES/MAINNAV_INFORMATION_HOME.GIF) no-repeat 0 0;
+}
+
+#mainNav li.medical {
+	background: url(../../IMAGES/MAINNAV_MEDICAL_HOME.GIF) no-repeat 0 0;
+}
+
+#mainNav li.financing {
+	background: url(../../IMAGES/MAINNAV_FINANCING_HOME.GIF) no-repeat 0 0;
+}
+
+#mainNav li.leadership {
+	background: url(../../IMAGES/MAINNAV_LEADERSHIP_HOME.GIF) no-repeat 0 0;
+}
+
+#mainNav li a.level1 {
+	color: #FFF;
+	border: none;
+	width: 260px;
+}
+
+#mainNav li.level1 a.level1:hover {
+	border: none;
+	background-color: transparent;
+}
+
+#midCol {
+	margin-left: 10px !important;
+	margin-right: 371px !important;
+	margin-right: 368px;
+}
+
+#rightCol {
+	width: 361px;
+}
+
+#footer {
+	background-image: none;
+}
+
+#footer #footerRightCorner {
+	display: none;
+}
+
+.ctArea .ctElement,
+#rightCol .ctArea .ctElement {
+	margin-bottom: 0;
+}
+
+.introBox {
+	background: url(../../IMAGES/INTROBOX_BG_HOME.GIF) no-repeat 0 0 #FFF;
+	min-height: 183px;
+	height: auto !important;
+	height: 183px;
+	padding-right: 30px;
+}
+
+.introBox p {
+	padding: 15px 0 5px 0;
+}
+
+#rightCol .ctArea .sectionFrame11Top,
+#rightCol .ctArea .sectionFrame11Bottom {
+	display: block;
+	width: 361px;
+	height: 12px;
+	font-size: 0;
+}
+
+#rightCol .ctArea .sectionFrame11Top {
+	background: url(../../IMAGES/DIDYOUKNOW_TOP.GIF);
+}
+
+#rightCol .ctArea .sectionFrame11Bottom {
+	background: url(../../IMAGES/DIDYOUKNOW_BOTTOM.GIF);
+}
+
+#rightCol .ctArea .sectionFrame11 {
+	background-color: #7baa1f;
+	padding: 0 15px 27px 15px;
+	margin-bottom: 0;
+}
+
+#rightCol .ctArea .sectionFrame11 * {
+	color: #000;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#rightCol .ctArea .sectionFrame11 h2,
+#rightCol .ctArea .sectionFrame11 h3,
+#rightCol .ctArea .sectionFrame11 h4 {
+	padding-top: 7px;
+	padding-bottom: 14px;
+	margin-bottom: 0;
+	color: #FFF;
+	font-size: 24px;
+	line-height: 30px;
+	border: none;
+	font-weight: normal;
+}
+
+#rightCol .ctArea .sectionFrame11 h2 a,
+#rightCol .ctArea .sectionFrame11 h3 a,
+#rightCol .ctArea .sectionFrame11 h4 a {
+	color: #FFF;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+#rightCol .ctArea .sectionFrame11 a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+

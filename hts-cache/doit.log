@@ -1,0 +1,8 @@
+-q -%i -w http://www.harvesting-evidence.org -O "/mnt/dano.trans/MarcoClementi/websites/Harvesting_Evidence offline" -n -%P -p7 -N0 -L2 -s0 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2006], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* +*//www.harvesting-evidence.org/fieladmin/* "+*/\"www.harvseting-evidence.org/typo3conf/ext*/*  +*.pdf  +*www.harvesting-evidence.org/uploads/*  --updatehack  --urlhack  --single-log  "
+File generated automatically on Fri, 28 Aug 2009 15:30:27, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

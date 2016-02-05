@@ -1,0 +1,131 @@
+/* styles for the print view */
+
+body {
+	overflow: visible !important;
+	overflow: auto;
+	background-color: #FFF;
+}
+
+* {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 128.5%;
+}
+
+#headRightCorner,
+#headerImage,
+#rootlineNav,
+#langNav,
+#mainNav,
+#leftCol,
+#rightCol,
+#footer {
+	display: none;
+}
+
+#main {
+	position: static;
+	margin: 10px;
+	text-align: left;
+}
+
+#head {
+	height: 86px;
+}
+
+#head h1 a {
+	display: block;
+	text-indent: -9999px;
+	width: 640px;
+	height: 39px;
+}
+
+#head h1 img {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: none;
+}
+
+#midCol {
+	position: relative;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+#midCol .ctArea {
+	border: none;
+}
+
+#midCol .ctArea .ctElement {
+	border: none;
+	height: auto;
+}
+
+#midCol .ctArea .ctElement p,
+#midCol .ctArea .ctElement h3,
+#midCol .ctArea .ctElement h4,
+#midCol .ctArea .ctElement ul,
+#midCol .ctArea .ctElement ol,
+#midCol .ctArea .ctElement table,
+#midCol .ctArea .ctElement fieldset,
+#midCol .ctArea .ctElement blockquote {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#midCol h2 {
+	padding: 0;
+}
+
+#midCol h2,
+#midCol h2 a {
+	color: #000;
+	background-color: transparent;
+}
+
+#midCol .ctArea ul li {
+	list-style: disc inside;
+	background-image: none;
+}
+
+#midCol .ctArea .introBox,
+#midCol .ctArea .keyMessageBox {
+	padding: 0;
+	background-image: none;
+}
+	
+#midCol .ctArea .introBox p,
+#midCol .ctArea .keyMessageBox p {
+	color: #000;
+}
+
+.fce2Columns .fceLeftCol,
+.fce2Columns .fceRightCol,
+.fce3Columns .fceLeftCol,
+.fce3Columns .fceMidCol,
+.fce3Columns .fceRightCol {
+	float: none;
+}
+
+.ctArea .fce2Columns .fceCtArea .ctElement,
+.ctArea .fce3Columns .fceCtArea .ctElement {
+	padding: 3px 0;
+}
+
+#midCol .ctArea .fce2Columns *,
+#midCol .ctArea .fce3Columns * {
+	background-image: none;
+	background-color: #FFF;
+}
+
+#midCol .ctArea .fce3Columns .fceMidCol .fceCtArea {
+	margin-left: 0;
+}
+
+#midCol .ctArea .fce3Columns .fceCtArea .ctElement h2,
+#midCol .ctArea .fce3Columns .fceCtArea .ctElement h3,
+#midCol .ctArea .fce3Columns .fceCtArea .ctElement h4,
+#midCol .ctArea .fce3Columns .fceCtArea .ctElement p {
+	color: #000;
+}
